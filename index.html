@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Mamillapalli | Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Ashish Mamillapalli - B.Tech CSE (AI & ML) Student & Software Developer. Explore my portfolio showcasing technical skills, projects, and credentials.">
+    <meta name="keywords" content="Ashish Mamillapalli, Portfolio, Software Developer, Java Programmer, Web Developer, AI, ML, Parul University">
+    <meta name="author" content="Ashish Mamillapalli">
+    
+    <!-- Open Graph / LinkedIn / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mamillapalliashish.netlify.app">
+    <meta property="og:title" content="Ashish Mamillapalli | Portfolio">
+    <meta property="og:description" content="B.Tech Computer Science student specializing in AI & ML. Check out my software development projects and verified technical credentials.">
+    <meta property="og:image" content="profile.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mamillapalliashish.netlify.app">
+    <meta property="twitter:title" content="Ashish Mamillapalli | Portfolio">
+    <meta property="twitter:description" content="B.Tech Computer Science student specializing in AI & ML. Check out my projects and credentials.">
+    <meta property="twitter:image" content="profile.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+
+    <!-- Google Fonts: Share Tech Mono (for terminal styling) & Plus Jakarta Sans (for dashboard UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="sr-only">Ashish Mamillapalli - B.Tech CSE AI & ML Developer Portfolio</h1>
+
+    <!-- ================= GLOBAL LOADING SCREEN ================= -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader-content">
+            <div class="custom-loader"></div>
+            <p class="loader-text">INITIALIZING TERMINAL<span>...</span></p>
+        </div>
+    </div>
+
+    <!-- ================= BACKGROUND CYBER GRID ================= -->
+    <div class="cyber-bg-layer">
+        <div class="cyber-grid-pattern"></div>
+        <div class="cyber-glow-sphere" id="ambientGlow"></div>
+    </div>
+
+    <!-- ================= STATUS BAR NAVBAR ================= -->
+    <header class="status-navbar-wrapper">
+        <div class="status-navbar-capsule">
+            <div class="navbar-status-left"><span class="status-indicator"></span> SYSTEM: ONLINE</div>
+            
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="navbar-status-right">PORTFOLIO v2.0</div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= MOBILE NAVIGATION OVERLAY ================= -->
+    <div class="mobile-nav-overlay">
+        <nav class="mobile-nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <!-- ================= HERO SECTION (CYBER TERMINAL) ================= -->
+    <section class="hero" id="home">
+        <div class="hero-left-console scroll-reveal">
+            <div class="console-header">
+                <div class="console-actions">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="console-title">session: ashish_mamillapalli.sh</div>
+            </div>
+            <div class="console-body">
+                <p class="log-line"><span class="prompt">ashish@mamillapalli:~$</span> init_profile_handshake</p>
+                <p class="log-output">[SYS] Synchronizing user variables...</p>
+                <p class="log-output">[SYS] B.Tech CSE (AI & ML) Candidate @ Parul University</p>
+                <p class="log-line"><span class="prompt">ashish@mamillapalli:~$</span> cat summary.txt</p>
+                
+                <!-- Dynamic typing simulated text output -->
+                <p class="typing-container">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </p>
+
+                <!-- Social Profiles Row inside Terminal -->
+                <div class="console-socials">
+                    <a href="https://www.linkedin.com/in/ashish-mamillapalli-5a8869333/" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="hover-target"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="https://github.com/Ashish-Vision" target="_blank" rel="noopener noreferrer" title="GitHub" class="hover-target"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://leetcode.com/u/mamillapalliashish/" target="_blank" rel="noopener noreferrer" title="LeetCode" class="hover-target"><i class="fas fa-code"></i> LeetCode</a>
+                </div>
+                
+                <div class="console-buttons">
+                    <a href="#projects" class="console-btn hover-target">run portfolio.exe</a>
+                    <a href="resume.html" target="_blank" rel="noopener noreferrer" class="console-btn secondary hover-target">cat resume.html</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3D Viewport holding the interactive 3D Gyroscope Neural Core -->
+        <div class="hero-right-viewport scroll-reveal">
+            <div class="scene3d" id="cubeScene">
+                <div class="gyroscope3d" id="interactiveGyro">
+                    <!-- Core Glow Sphere -->
+                    <div class="gyro-core"></div>
+                    <!-- Orthogonal Rings -->
+                    <div class="gyro-ring ring-x"></div>
+                    <div class="gyro-ring ring-y"></div>
+                    <div class="gyro-ring ring-z"></div>
+                </div>
+                <!-- 3D Shadow depth plane -->
+                <div class="gyro-shadow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTERACTIVE ABOUT DASHBOARD ================= -->
+    <section class="section" id="about">
+        <h2 class="section-title scroll-reveal">About Dashboard</h2>
+        
+        <div class="about-dashboard scroll-reveal">
+            <!-- Sidebar selectors -->
+            <div class="dashboard-sidebar">
+                <button class="db-tab-btn active hover-target" data-tab="profile">
+                    <span class="btn-num">01</span> [ PROFILE_SUMMARY ]
+                </button>
+                <button class="db-tab-btn hover-target" data-tab="academia">
+                    <span class="btn-num">02</span> [ ACADEMIA_SPECS ]
+                </button>
+                <button class="db-tab-btn hover-target" data-tab="targets">
+                    <span class="btn-num">03</span> [ TECHNICAL_TARGETS ]
+                </button>
+            </div>
+
+            <!-- Content panels -->
+            <div class="dashboard-content glass">
+                
+                <!-- Panel 1: Profile Summary -->
+                <div class="db-panel active" id="panel-profile">
+                    <div class="panel-header">
+                        <i class="fas fa-user-astronaut panel-icon"></i>
+                        <h3>System Candidate Details</h3>
+                    </div>
+                    <p class="panel-body-text">
+                        I am an ambitious Software Developer and Web Programmer currently pursuing my B.Tech in Computer Science Engineering specialized in Artificial Intelligence & Machine Learning at Parul University (2024-2028). I focus on clean application architecture, dynamic frontend interfaces, and implementing stable data structures to solve core system operational problems.
+                    </p>
+                </div>
+
+                <!-- Panel 2: Academia Specs -->
+                <div class="db-panel" id="panel-academia">
+                    <div class="panel-header">
+                        <i class="fas fa-graduation-cap panel-icon"></i>
+                        <h3>Education & Academic Timeline</h3>
+                    </div>
+                    <div class="academia-grid">
+                        <div class="timeline-block">
+                            <span class="year-badge">2024 - 2028</span>
+                            <h4>B.Tech CSE (AI & ML)</h4>
+                            <p class="school-label">Parul University, Gujarat</p>
+                            <span class="curriculum-info">Curriculum covers advanced analytics, software architecture, data structures, and statistical modeling.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel 3: Technical Targets -->
+                <div class="db-panel" id="panel-targets">
+                    <div class="panel-header">
+                        <i class="fas fa-crosshairs panel-icon"></i>
+                        <h3>Architecture Specialization</h3>
+                    </div>
+                    <p class="panel-body-text">
+                        My primary technical focus areas lie in building secure, high-performance web systems and integrating statistical models to yield predictive insights.
+                    </p>
+                    <div class="specs-chips">
+                        <span>Responsive Frontends</span>
+                        <span>Modular System Logic</span>
+                        <span>Linear Data Structures</span>
+                        <span>Predictive Data Models</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS GRID ================= -->
+    <section class="section dark" id="skills">
+        <h2 class="section-title scroll-reveal">Technical Core Modules</h2>
+
+        <!-- Milestones counters -->
+        <div class="metrics-container scroll-reveal">
+            <a href="https://leetcode.com/u/mamillapalliashish/" target="_blank" rel="noopener noreferrer" class="metric-card glass tilt-target">
+                <div class="metric-icon"><i class="fas fa-code"></i></div>
+                <div class="metric-info">
+                    <h4>LeetCode Profile</h4>
+                    <p class="counter" data-target="50">0</p>
+                    <span class="subtext">Core: Data Structures & Algorithms</span>
+                </div>
+                <div class="card-arrow"><i class="fas fa-external-link-alt"></i></div>
+            </a>
+            <div class="metric-card glass tilt-target">
+                <div class="metric-icon"><i class="fas fa-microchip"></i></div>
+                <div class="metric-info">
+                    <h4>AI & ML Specialty</h4>
+                    <p>Predictive Analytics</p>
+                    <span class="subtext">Parul University Curriculum</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills grid -->
+        <div class="skills-grid scroll-reveal">
+            <div class="skill-card glass tilt-target" data-glow-color="#e34c26">
+                <i class="fab fa-html5 skill-icon" style="color: #e34c26;"></i>
+                <h3>HTML5</h3>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#264de4">
+                <i class="fab fa-css3-alt skill-icon" style="color: #264de4;"></i>
+                <h3>CSS3</h3>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#f7df1e">
+                <i class="fab fa-js-square skill-icon" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#f89820">
+                <i class="fab fa-java skill-icon" style="color: #f89820;"></i>
+                <h3>Java</h3>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#3776ab">
+                <i class="fab fa-python skill-icon" style="color: #3776ab;"></i>
+                <h3>Python</h3>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#00758f">
+                <i class="fas fa-database skill-icon" style="color: #00758f;"></i>
+                <h3>MySQL</h3>
+                <span class="skill-level">Academic</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#ff6f61">
+                <i class="fas fa-chart-line skill-icon" style="color: #ff6f61;"></i>
+                <h3>Data Analysis</h3>
+                <span class="skill-level">Theoretical</span>
+            </div>
+            <div class="skill-card glass tilt-target" data-glow-color="#4caf50">
+                <i class="fas fa-network-wired skill-icon" style="color: #4caf50;"></i>
+                <h3>Algorithms</h3>
+                <span class="skill-level">Fundamentals</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section class="section" id="projects">
+        <h2 class="section-title scroll-reveal">Featured Projects</h2>
+        <div class="projects-grid scroll-reveal">
+
+            <!-- Project 1: Portfolio -->
+            <div class="project-card glass tilt-target">
+                <div class="project-media">
+                    <div class="project-visual"><i class="fas fa-code"></i></div>
+                </div>
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Personal Portfolio Website</h3>
+                        <span class="proj-badge">Frontend</span>
+                    </div>
+                    <p>A highly creative, responsive personal portfolio showcasing modern UI/UX design rules, smooth cross-device fluid layouts, and keyframe-driven interactive animations.</p>
+
+                    <div class="project-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/Ashish-Vision" target="_blank" rel="noopener noreferrer" class="proj-link-btn hover-target"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="https://mamillapalliashish.netlify.app" target="_blank" rel="noopener noreferrer" class="proj-link-btn outline hover-target"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS SECTION ================= -->
+    <section class="section dark" id="certifications">
+        <h2 class="section-title scroll-reveal">Verified Cryptographic Ledger</h2>
+        
+        <div class="certifications-grid scroll-reveal">
+
+            <!-- Cert 1: HTML & CSS -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="HTML & CSS CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fab fa-html5"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">Certiport | Pearson VUE</span>
+                    <h3>IT Specialist: HTML and CSS</h3>
+                    <p>Verification of professional styling and semantics competence.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+            <!-- Cert 2: JavaScript -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="JAVASCRIPT CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fab fa-js-square"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">Certiport | Pearson VUE</span>
+                    <h3>IT Specialist: JavaScript</h3>
+                    <p>Competency verification in DOM scripting, variables, and arrays.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+            <!-- Cert 3: Python -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="PYTHON CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fab fa-python"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">IBM Developer Skills Network</span>
+                    <h3>Python Programming</h3>
+                    <p>Algorithmic Python training, object-oriented concepts, and modules.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+            <!-- Cert 4: AWS Data Engineering -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="AWS CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fab fa-aws"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">Amazon Web Services (AWS)</span>
+                    <h3>AWS Academy: Data Engineering</h3>
+                    <p>Cloud database models, pipelines, analytical queries, and AWS services.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+            <!-- Cert 5: NPTEL Computer Networks -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="NPTEL CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fas fa-network-wired"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">NPTEL | IIT Kharagpur</span>
+                    <h3>Computer Networks & IP</h3>
+                    <p>Theoretical networking structure, socket rules, and DNS concepts.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+            <!-- Cert 6: Web Development -->
+            <div class="cert-card-v2 glass tilt-target" data-pdf="WEB DEVELOPMENT CERTIFICATE.pdf">
+                <div class="cert-card-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="cert-card-body">
+                    <span class="issuer">CodeWithHarry Certification</span>
+                    <h3>Ultimate Web Development</h3>
+                    <p>Comprehensive build experience combining backend routes and frontend styles.</p>
+                </div>
+                <div class="cert-card-footer">
+                    <span class="view-trigger"><i class="fas fa-expand-alt"></i> Preview Certificate</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FULLSCREEN CERTIFICATE MODAL ================= -->
+    <div class="cert-modal" id="certModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-container">
+            <div class="modal-header">
+                <h3 id="modalTitle">Certificate Viewer</h3>
+                <button class="modal-close hover-target" id="modalClose" aria-label="Close Modal"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="pdf-secure-wrapper">
+                    <!-- Standard object tag to render the selected PDF dynamically with scroll prevention overrides -->
+                    <object id="modalPdfViewer" data="" type="application/pdf" class="modal-pdf-content">
+                        <div class="pdf-fallback-container">
+                            <i class="fas fa-file-pdf"></i>
+                            <p>Unable to display the PDF inline.</p>
+                            <a id="modalDownloadFallback" href="" target="_blank" rel="noopener noreferrer" class="btn hover-target">Open Certificate In New Tab</a>
+                        </div>
+                    </object>
+                    <div class="modal-pdf-shield" oncontextmenu="return false;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="section" id="contact">
+        <h2 class="section-title scroll-reveal">Get In Touch</h2>
+        <div class="contact-wrapper scroll-reveal">
+
+            <form class="contact-form glass hover-target" id="contactForm" action="https://formspree.io/f/xojzrqyq" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" autocomplete="off" required>
+                    <label for="name">Your Name</label>
+                    <div class="line"></div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" autocomplete="off" required>
+                    <label for="email">Your Email</label>
+                    <div class="line"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" autocomplete="off" required>
+                    <label for="subject">Subject</label>
+                    <div class="line"></div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Your Message</label>
+                    <div class="line"></div>
+                </div>
+                <button type="submit" class="btn send-btn hover-target" id="formSubmitBtn">
+                    <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+
+            <div class="direct-contact">
+                <a href="mailto:mamillapalliashish876@gmail.com?subject=Project%20Inquiry%20-%20Portfolio" class="contact-item-card glass hover-target">
+                    <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>mamillapalliashish876@gmail.com</p>
+                    </div>
+                </a>
+                <div class="contact-item-card glass hover-target">
+                    <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 8008761457</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Ashish Mamillapalli. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/ashish-mamillapalli-5a8869333/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="hover-target"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ashish-Vision" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hover-target"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/mamillapalliashish/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" class="hover-target"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Systems Controller JS -->
+    <script src="script.js"></script>
+</body>
+</html>
